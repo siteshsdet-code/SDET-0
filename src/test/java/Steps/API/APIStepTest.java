@@ -25,4 +25,9 @@ public class APIStepTest {
         boolean hasDuplicate = list.size() != new HashSet<>(list).size();
         System.out.println(hasDuplicate);
     }
+
+    @Test
+    public void runGitTest(){
+        System.out.println("from git development branch");
+    }
 }
